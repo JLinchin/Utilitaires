@@ -1,0 +1,19 @@
+body, #choixDomaine, #resultat
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#choixDomaine, #choixType
+{
+    margin-bottom: 50px;
+}
+
+.gridResult
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+}
