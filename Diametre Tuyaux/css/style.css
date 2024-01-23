@@ -1,0 +1,30 @@
+#inputs
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    border-bottom: 1px solid #b0b0b0;
+}
+
+input
+{
+    width: 30%;
+}
+
+#tableRes
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    border-top: 1px solid #b0b0b0;
+    margin-top: 10px;
+}
+
+#resOpti div
+{
+    display: flex;
+}
+
+.childGrid
+{
+    padding: 5px;
+}
