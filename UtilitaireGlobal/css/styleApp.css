@@ -1,0 +1,235 @@
+#calcRes
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid #B0B0B0;
+}
+
+#calcRes #resultats
+{
+    border-left: 1px solid #B0B0B0;
+    width: 60%;
+}
+
+#calcRes #resultats #valCurs
+{
+    padding: 20px;
+}
+
+
+
+#saisies
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+#saisies input
+{
+    width: 5%;
+}
+
+
+#resultats
+{
+    border-top: 1px solid #b0b0b0;
+}
+
+#resultats p
+{
+    width: 100%;
+    text-align: center;
+}
+
+
+#gridParent
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
+}
+
+.gridChild
+{
+    padding: 5px;
+    vertical-align: middle;
+    text-align: center;
+    border: 1px solid #b0b0b0;
+}
+
+
+.line0
+{
+    grid-row: 1;
+    grid-column: 2/12;
+}
+
+.line1
+{
+    grid-row: 2;
+}
+
+.line2
+{
+    grid-row: 3;
+}
+
+.line3
+{
+    grid-row: 4;
+}
+
+.line4
+{
+    grid-row: 5;
+}
+
+.line5
+{
+    grid-row: 6;
+}
+
+.line6
+{
+    grid-row: 7;
+}
+
+.line7
+{
+    grid-row: 8;
+}
+
+.line8
+{
+    grid-row: 9;
+}
+
+.line9
+{
+    grid-row: 10;
+}
+
+.line10
+{
+    grid-row: 11;
+}
+
+
+.col0
+{
+    grid-column: 1;
+    grid-row: 2/14;
+}
+
+.col1
+{
+    grid-column: 2;
+}
+
+.col2
+{
+    grid-column: 3;
+}
+
+.col3
+{
+    grid-column: 4;
+}
+
+.col4
+{
+    grid-column: 5;
+}
+
+.col5
+{
+    grid-column: 6;
+}
+
+.col6
+{
+    grid-column: 7;
+}
+
+.col7
+{
+    grid-column: 8;
+}
+
+.col8
+{
+    grid-column: 9;
+}
+
+.col9
+{
+    grid-column: 10;
+}
+
+.col10
+{
+    grid-column: 11;
+}
+
+
+
+#variables
+{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    border-bottom: 1px #b0b0b0 solid;
+}
+
+
+
+span, #choixDomaine, #resultat
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#choixDomaine, #choixType
+{
+    margin-bottom: 50px;
+}
+
+.gridResult
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+}
+
+
+
+#inputs
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    border-bottom: 1px solid #b0b0b0;
+}
+
+input
+{
+    width: 30%;
+}
+
+#tableRes
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    border-top: 1px solid #b0b0b0;
+    margin-top: 10px;
+}
+
+#resOpti div
+{
+    display: flex;
+}
