@@ -5,13 +5,14 @@
 
     $lesControls = array
     (
-        "default" => "convertisseur.php",
+        "default" => "accueil.php",
         "convert" => "convertisseur.php",
         "calculV" => "calculVanne.php",
         "tuyau" => "diamTuyau.php",
         "eauC" => "eauChaude.php",
         "calculP"=> "calculPlomberie.php",
-        "visco" => "viscosite.php"
+        "visco" => "viscosite.php",
+        "perteCR" => "perteCharges.php"
     );
 
     if (isset($_GET["utilitaire"]))

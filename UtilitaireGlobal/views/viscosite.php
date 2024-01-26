@@ -10,10 +10,10 @@
         ?>
     </head>
 
-    <body onload="calculsViscos()">
+    <body onload="lesCalculs()">
         <div>
             <label for="valAlti">Altitude de clacul (en m) :</label>
-            <input type="number" name="valAlti" id="valAlti" value="200" oninput="calculsViscos()"/>
+            <input type="number" name="valAlti" id="valAlti" value="200" oninput="lesCalculs()"/>
         </div>
 
         <div id="calcRes">
@@ -21,7 +21,7 @@
                 <p>Calcul manuel</p>
                 <div id="saisis">
                    <label for="valTemp">Température (en °C) :</label>
-                   <input type="number" name="valTemp" id="valTemp" value="20" oninput="calculManuel()"/> 
+                   <input type="number" name="valTemp" id="valTemp" value="20" oninput="calculM()"/> 
                 </div>
 
                 <div id="nonsaisis">
@@ -42,6 +42,6 @@
 
 
         <script src="scriptJs/chart.js"></script>
-        <script src="scriptJs/scripts.js"></script>
+        <script src="scriptJs/scriptsVisco.js"></script>
     </body>
 </html>

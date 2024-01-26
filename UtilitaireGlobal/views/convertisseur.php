@@ -41,7 +41,6 @@
             </div>
         </span>
         
-        <script src="scriptJs/chart.js"></script>
-        <script src="scriptJs/scripts.js"></script>
+        <script src="scriptJs/scriptsConvert.js"></script>
     </body>
 </html>

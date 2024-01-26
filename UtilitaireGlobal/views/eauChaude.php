@@ -30,7 +30,6 @@
             </div>
         </div>
 
-
-        <script src="scriptJs/scripts.js"></script>
+        <script src="scriptJs/scriptsEauC.js"></script>
     </body>
 </html>

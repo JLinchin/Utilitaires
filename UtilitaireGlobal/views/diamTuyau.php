@@ -54,7 +54,6 @@
             </div>
         </div>
 
-        <script src="scriptJs/chart.js"></script>
-        <script src="scriptJs/scripts.js"></script>
+        <script src="scriptJs/scriptsTuyau.js"></script>
     </body>
 </html>
