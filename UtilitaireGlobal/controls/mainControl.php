@@ -12,7 +12,8 @@
         "eauC" => "eauChaude.php",
         "calculP"=> "calculPlomberie.php",
         "visco" => "viscosite.php",
-        "perteCR" => "perteCharges.php"
+        "perteCR" => "perteCharges.php",
+        "lambda" => "courbesLambda.php"
     );
 
     if (isset($_GET["utilitaire"]))

@@ -19,6 +19,7 @@
             <div class="divAccueil gridChild"><a href="./?utilitaire=calculV">Calcul du Kv des vannes</a></div>
             <div class="divAccueil gridChild"><a href="./?utilitaire=perteCR">Calcul des pertes de charges régulières</a></div>
             <div class="divAccueil gridChild"><a href="./?utilitaire=eauC">Calcul des installations d'eau chaude</a></div>
+            <div class="divAccueil gridChild"><a href="./?utilitaire=lambda">Courbes de Lambda</a></div>
             <!--<div class="divAccueil" id="gridChild"><a href="./?utilitaire=perteCS">Calcul des pertes de charges singulières</a></div>-->
         </div>
     </body>
