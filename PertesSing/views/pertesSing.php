@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Calculs des dzétas</title>
+        <?php
+            if (isset($_GET["type"]) && $_GET["type"] == "appli")
+                echo '<link rel="stylesheet" type="text/css" href="css/styleApp.css"/>';
+            else
+                echo '<link rel="stylesheet" type="text/css" href="css/style.css"/>';
+        ?>
+    </head>
+
+    <body>
+        <div id="gridParent">
+            <div class="gridChild" id="listAcci">
+            </div>
+            <div class="gridChild">
+                <img src="data:image/jpeg;base64,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"/>
+            </div>
+            <div class="gridChild" id="paramAcci">
+                <!-- Paramètres de l'accident --> 
+            </div>
+            <div class="gridChild">
+                Coefficient : 
+            </div>
+        </div>
+        <script src="scriptJs/scripts.js"></script>
+    </body>
+</html>

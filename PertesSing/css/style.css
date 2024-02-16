@@ -1,0 +1,26 @@
+#gridParent
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 200px 200px;
+}
+
+.gridChild
+{
+    padding: 7.5px;
+    border: 1px solid #b0b0b0;
+}
+
+#listAcci
+{
+    height: auto;
+    overflow-y: scroll;
+}
+
+img
+{
+    height: 180px;
+}
+
+#paramAcc
+{}
